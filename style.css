@@ -173,3 +173,27 @@ nav ul li a:hover {
     color: rgb(240, 240, 240);
     margin-left: 12px;
 }
+
+#comments form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#comments input,
+#comments textarea,
+#comments button
+{
+    font-size: 15px;
+    background-color: white;
+    border: 1px solid rgb(99, 99, 99);
+    padding: 2px 5px;
+    margin: 10px;
+    color: rgb(99, 99, 99);
+    resize: none;
+    display: block;
+    width:100%
+}
+
+#comments button {
+    width: 20%;
+}
